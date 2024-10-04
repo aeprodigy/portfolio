@@ -6,7 +6,7 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-gray-400">
-            Works
+            Projects
           </p>
           <p className="py-6">Check out my Recent Work</p>
         </div>
@@ -59,7 +59,7 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider ">
                 React JS Application
               </span>
-              <div className="pt-8">
+              <div className="pt-flex justify-center ">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
