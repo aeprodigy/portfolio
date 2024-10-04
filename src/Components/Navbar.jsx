@@ -23,29 +23,30 @@ const Navbar = () => {
       <div>
         <ul className="hidden md:flex font-bold">
           <li className="cursor-pointer px-4">
-            <Link  to="home"  smooth={true}  duration={500}>
-          Home
-        </Link>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li className="cursor-pointer px-4">
-                <Link  to="about"  smooth={true}  duration={500}>
-          About
-        </Link>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
           </li>
           <li className="cursor-pointer px-4">
-                <Link  to="skills"  smooth={true}  duration={500}>
-          Skill
-        </Link>
+            <Link to="skills" smooth={true} duration={500}>
+              Skill
+            </Link>
           </li>
           <li className="cursor-pointer px-4">
-                <Link  to="work"  smooth={true}  duration={500}>
-          Works
-        </Link>
+            <Link to="work" smooth={true} duration={500}>
+              Works
+            </Link>
           </li>
           <li className="cursor-pointer px-4">
-              <Link  to="contact"  smooth={true}  duration={500}>
-          Contact
-        </Link></li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
       {/**Hamburger */}
@@ -61,29 +62,29 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-           <Link onClick={handleClick } to="home"  smooth={true}  duration={500}>
-          Home
-        </Link>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick } to="about"  smooth={true}  duration={500}>
-          About
-        </Link>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick } to="skills"  smooth={true}  duration={500}>
-          Skills
-        </Link>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick } to="work"  smooth={true}  duration={500}>
-          Works
-        </Link>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Works
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick } to="contact"  smooth={true}  duration={500}>
-          Contact
-        </Link>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
       {/**Social Icons */}
@@ -108,7 +109,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] px-2 flex justify-between items-center ml-[-130px] bg-[#333] hover:ml-[-20px] duration-300">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Faeprodigy%3Ffbclid%3DIwAR36EjjHRXelSxpe_p452rM-OfBZa-wa--cn7UrZWZ9DM-nbtei9z7nazto&h=AT38h2jVOrPZmJrQr7Xo9UsAMrOXk65sECr9EQIocQJ3EMU-Mb1o8sZ_09vIFgXMvY38a5WqmC4jppElPvK9XVGvJl97DLuX9IHQMplWooJ-BPxrOMQ25wHTh5gH2UIxKMTZPw"
+              href="https://github.com/aeprodigy"
             >
               Github <FaGithub size={30} />
             </a>
@@ -126,7 +127,8 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href=""
             >
-              Resume`<BsFilePersonFill size={30} />
+              Resume`
+              <BsFilePersonFill size={30} />
             </a>
           </li>
         </ul>
