@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from '../Assets/img1.png';
 
 const Work = () => {
   return (
@@ -11,7 +12,14 @@ const Work = () => {
           <p className="py-6">Check out my Recent Work</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
-          <div className="shadow-lg shadow-slate-400 group container round-md flex justify-center items-center mx-auto content-div">
+          <div
+            className="shadow-lg shadow-slate-400 group container round-md flex justify-center items-center mx-auto content-div"
+            style={{
+              backgroundImage: `url(${img1})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
             {/*Hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider ">
