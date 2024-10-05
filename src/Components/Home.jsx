@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from 'react-scroll';
+import "@fontsource/oswald"; // Defaults to weight 400
+
 
 const Home = () => {
   const [nav, setNav] = useState(false);
@@ -14,7 +16,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#cccdf6]">
           Mike Mambwe
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+        <h2 className="text-4xl  sm:text-7xl font-bold text-[#8892b0]">
           I am a Software Developer.
         </h2>
         <p className="text-[#b7bdd1] text-2xl py-4 max-w-[700px]">
