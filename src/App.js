@@ -8,7 +8,7 @@ import Work from './Components/Work.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-black">
       <Navbar/>
       <Home/>
       <About/>
