@@ -1,5 +1,7 @@
 import React from "react";
 import img1 from '../Assets/img1.png';
+import app1 from '../Assets/movie_app.png';
+import app2 from "../Assets/netflix_clone.png";
 
 const Work = () => {
   return (
@@ -40,11 +42,18 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="shadow-lg shadow-slate-400 group container round-md flex justify-center items-center mx-auto content-div">
+          <div
+            className="shadow-lg shadow-slate-400 group container round-md flex justify-center items-center mx-auto content-div"
+            style={{
+              backgroundImage: `url(${app2})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
             {/*Hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider ">
-                React JS Application
+                React Movie Application
               </span>
               <div className="pt-8">
                 <a href="https://blumhouse.vercel.app">
@@ -61,14 +70,21 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="shadow-lg shadow-slate-400 group container round-md flex justify-center items-center mx-auto content-div">
+          <div
+            className="shadow-lg shadow-slate-400 group container round-md flex justify-center items-center mx-auto content-div"
+            style={{
+              backgroundImage: `url(${app1})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
             {/*Hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider ">
-                React JS Application
+                Ambient Flutter Application
               </span>
               <div className="pt-flex justify-center ">
-                <a href="/">
+                <a href="https://appetize.io/app/b_chefhpbfl5lqe5mhkxngxweame">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
@@ -82,26 +98,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="shadow-lg shadow-slate-400 group container round-md flex justify-center items-center mx-auto content-div">
-            {/*Hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider ">
-                React JS Application
-              </span>
-              <div className="pt-8">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
