@@ -125,7 +125,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] px-2 flex justify-between items-center ml-[-130px] bg-[#565f79] hover:ml-[-20px] duration-300">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href=""
+              href="https://mike-mambwe.tiiny.site"
             >
               Resume`
               <BsFilePersonFill size={30} />
